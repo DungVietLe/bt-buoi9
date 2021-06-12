@@ -2,7 +2,7 @@ let hiddenBox = document.querySelector('#hiddenbox');
 
 let btn = document.querySelector('.btn');
 
-btn.addEventListener('click', function(event) {
+btn.addEventListener('click', function() {
     if (hiddenBox.classList.contains('openbox')) {
         hiddenBox.classList.remove('openbox')
     } else {
